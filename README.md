@@ -1,90 +1,106 @@
-# Calculadora em Python
+# 🧮 Calculadora Web em Python
 
-Este é um projeto simples de calculadora desenvolvido em Python.  
-Ele permite realizar as quatro operações matemáticas básicas e inclui testes automatizados.
+Projeto de uma calculadora web moderna desenvolvida com Python e Flask.
 
-## Funcionalidades
+A aplicação realiza operações matemáticas básicas através de uma interface gráfica responsiva construída com HTML, CSS e JavaScript.
 
-- Soma de dois números  
-- Subtração  
-- Multiplicação  
-- Divisão com tratamento de erro (divisão por zero)  
-- Testes automatizados usando unittest  
+---
 
-## Tecnologias Utilizadas
+# 🚀 Funcionalidades
 
-- Python  
-- unittest (biblioteca padrão de testes do Python)  
-- Git e GitHub para versionamento e hospedagem do código  
+✅ Soma  
+✅ Subtração  
+✅ Multiplicação  
+✅ Divisão  
+✅ Tratamento de erro para divisão por zero  
+✅ Interface gráfica moderna  
+✅ Tema dark mode  
+✅ Efeitos visuais com CSS  
+✅ Estrutura organizada para evolução do projeto  
 
-## Como Rodar o Projeto
+---
 
-1. Clone este repositório:
+# 🛠 Tecnologias Utilizadas
 
-```bash
-git clone https://github.com/Rw110299/calculadora-python.git
-cd calculadora-python
-```
+- Python 3
+- Flask
+- HTML5
+- CSS3
+- JavaScript
+- Git e GitHub
 
-2. Execute o arquivo principal:
+---
 
-```bash
-python calculadora_completa.py
-```
+# 📂 Estrutura do Projeto
 
-Este script inclui as funções da calculadora e os testes. Ao rodar, os testes serão executados automaticamente.
 
-## Testes
-
-Este projeto utiliza testes automatizados com a biblioteca unittest.
-
-Para rodar os testes manualmente:
-
-```bash
-python -m unittest discover -s tests
-```
-
-Ou simplesmente execute:
-
-```bash
-python calculadora_completa.py
-```
-
-Você verá uma saída semelhante a esta:
-
-```
-.....
-ran 5 tests in 0.001s
-OK
-```
-
-## Autor
-
-Richard Souza  
-* GitHub: [@Rw110299](https://github.com/Rw110299)  
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.  
-Você pode usar, modificar e distribuir livremente.  
-Para mais detalhes, veja o arquivo LICENSE.
-
-## Estrutura Recomendada do Projeto
-
-```
 calculadora-python
 │
-├── src/                        # Código-fonte principal do projeto 
-│   └── calculadora.py          # Módulo com as funções básicas da calculadora 
+├── src
+│   ├── app.py
+│   ├── calculadora.py
+│   └── main.py
 │
-├── tests/                      # Testes automatizados do projeto 
-│   └── test_calculadora.py     # Testes unitários usando unittest 
+├── templates
+│   └── index.html
 │
-├── docs/                       # Documentação adicional do projeto 
-│   └── ...                     # (Exemplos, manuais, diagramas, etc.) 
+├── static
+│   ├── style.css
+│   ├── script.js
+│   └── fundo.jpg
 │
-├── README.md                   # Documentação inicial com visão geral do projeto 
-├── .gitignore                  # Arquivo para ignorar arquivos/pastas no Git 
-├── LICENSE                    # Licença de uso (MIT, Apache, etc.) 
-└── pyproject.toml              # (Opcional) Configuração de metadados e dependências do projeto 
-```
+├── test
+│   └── test_calculadora.py
+│
+├── README.md
+├── LICENSE
+└── pyproject.toml
+
+---
+
+# ⚙ Como Executar o Projeto
+1. Clone o repositório 
+
+git clone https://github.com/Rw110299/calculadora-python.git
+
+2. Entre na pasta do projeto
+cd calculadora-python
+
+3. Instale o Flask
+pip install flask
+
+4. Execute a aplicação
+python src/app.py
+
+🌐 Acesse no Navegador
+
+Após iniciar o Flask:
+
+http://127.0.0.1:5000
+
+🧪 Executar os Testes
+python -m unittest discover -s test
+
+📸 Interface
+
+A aplicação possui:
+
+Interface moderna
+Layout responsivo
+Tema escuro
+Efeito glassmorphism
+Fundo personalizado
+👨‍💻 Autor
+
+Richard Pesci 
+
+GitHub:
+https://github.com/Rw110299
+
+🎓 Desenvolvimento Acadêmico
+
+Projeto desenvolvido com apoio de inteligência artificial (ChatGPT) e baseado nos conhecimentos adquiridos no curso de Engenharia da Computação da UNIVESP.
+
+📄 Licença
+
+Este projeto está sob a licença MIT.

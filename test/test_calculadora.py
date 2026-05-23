@@ -30,7 +30,7 @@ class TestCalculadora(unittest.TestCase):
     # Testa se a divisão por zero levanta o erro correto (ZeroDivisionError)
     def test_divisao_por_zero(self):
         # Usa um contexto que espera que a função lançar uma exceção ZeroDivisionError
-        with self.assertRaises(ZeroDivisionError):
+        with self.assertRaises(ValueError):
             dividir(5, 0)
 
 # Garante que os testes sejam executados quando rodar o arquivo diretamente
